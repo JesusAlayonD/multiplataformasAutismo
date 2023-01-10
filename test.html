@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Autistmo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Boton de Empezar -->
+    <div class="start_btn"><button>Test del espectro Autista</button></div>
+
+    <!-- info Box -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Reglas del Test</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1.- Aplicar con niños mayores de 3 años.</div>
+            <div class="info">2.- Los padres o un tutor designado contestará el test.</div>
+            <div class="info">3.- Es importante ser honesto para tener el mejor resultado.</div>
+            <div class="info">4.- En caso de obtener algún resultado acudir con su médico.</div>
+            <div class="info">Nota: Este test ayuda a detectar o dar una idea si un niño
+                            puede o no tener autismo, es importante acudir a un médico
+                            para un diagnóstico más completo.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Salir</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Test del espectro Autista</div>
+        </header>
+        <section>
+            <div class="que_text">
+               <!--  Mostramos las preguntas desde el js -->
+            </div>
+            <div class="option_list">
+                <div class="option"><span>Si</span></div>
+                <div class="option"><span>No</span></div>
+            </div>
+        </section>
+
+        <!-- Quiz Box Footer -->
+        <footer>
+            <div class="total_que">
+               <!--  <span>Pregunta<p>2</p></span> -->
+            </div>
+            <button class="next_btn">Siguiente</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="complete_text">Gracias por participar</div>
+        <div class="text">
+        </div>
+        <div class="buttons">
+            <button class="quit" href="index.html">Salir</button>
+        </div>
+    </div>
+    
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
